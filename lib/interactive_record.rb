@@ -68,7 +68,6 @@ class InteractiveRecord
     SQL
     answer = DB[:conn].execute(sql)
   end
-  # binding.pry
 
   #proper .find_by
   # def self.find_by(attribute_hash)
